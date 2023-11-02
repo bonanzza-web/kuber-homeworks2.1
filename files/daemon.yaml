@@ -1,0 +1,30 @@
+apiVersion: apps/v1
+kind: DaemonSet
+metadata:
+  name: mult-daemon
+  labels:
+    app: busy-mult
+spec:
+  selector:
+    matchLabels:
+      app: busy-mult
+  template:
+    metadata:
+      labels:
+        app: busy-mult
+    spec:
+      containers:
+      - name: multitools
+        image: wbitt/network-multitool
+        ports:
+        - containerPort: 80
+        env:
+        - name: HTTP_PORT
+          value: "80"
+        volumeMounts:
+        - name: syslogs
+          mountPath: /syslogs
+      volumes:
+      - name: syslogs
+        hostPath:
+          path: /var/log
