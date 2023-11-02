@@ -92,7 +92,7 @@ It is a log -- Thu Nov  2 13:12:01 UTC 2023
 
 ```
 
-Манифест https://github.com/bonanzza-web/kuber-homeworks2.1/blob/main/files/deploy.yaml    
+[Манифест](https://github.com/bonanzza-web/kuber-homeworks2.1/blob/main/files/deploy.yaml)    
 
 # Задание 2:
 
@@ -115,7 +115,7 @@ Nov  2 13:21:04 server-kube systemd[1]: run-containerd-runc-k8s.io-d6efcc12dbdd1
 ```
 
 
-Манифест https://github.com/bonanzza-web/kuber-homeworks2.1/blob/main/files/daemon.yaml
+[Манифест](https://github.com/bonanzza-web/kuber-homeworks2.1/blob/main/files/daemon.yaml)
 
 
 ------
