@@ -92,6 +92,8 @@ It is a log -- Thu Nov  2 13:12:01 UTC 2023
 
 ```
 
+Манифест https://github.com/bonanzza-web/kuber-homeworks2.1/blob/main/files/deploy.yaml    
+
 # Задание 2:
 
 ```
@@ -111,6 +113,12 @@ Nov  2 13:21:04 server-kube systemd[6414]: Started snap.microk8s.microk8s-d8c4aa
 Nov  2 13:21:04 server-kube systemd[1]: run-containerd-runc-k8s.io-d6efcc12dbdd1d43808db0b22f5ad4d1c7da6fc01dfa389aa90a8b5f5cf68c7e-runc.UzQvd4.mount: Deactivated successfully.
 
 ```
+
+
+Манифест https://github.com/bonanzza-web/kuber-homeworks2.1/blob/main/files/daemon.yaml
+
+
+------
 
 
 ### Правила приёма работы
